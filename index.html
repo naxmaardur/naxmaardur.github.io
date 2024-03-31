@@ -1,6 +1,343 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Mia Vreven's Game Design Portfolio</title>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.esm.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/CustomButton.css">
+    <style>
+        * {color: white;
+            word-wrap: break-word;}
+        .container-bg {
+            background-image: url("./images/bg.png");
+            background-repeat: no-repeat ;background-position: 0.00% 41.59% ;background-size: 100%;
+            background-color: transparent;
+            background-size: cover;
+            height: 574px;
+            vertical-align: middle;
+        }
+        .Black-Text *{
+            color: black;
+        }
+        .Game-Preview-Image{
+            width: 100%;
+            height: 100%;
+           object-fit: cover;
+        }
+
+    </style>
+</head>
 <body>
-<h1>Under construction</h1>
+<div class="container-bg">
+    <div class="container-fluid">
+        <div class="row p-3" style="height: 150px">
+            <div class="col-sm-2">MIA VREVEN - GAME DESIGNER</div>
+            <div class="col-sm-3 offset-7">
+
+
+                <div class="CbuttonContainer">
+                    <a class="CButton" href="./" style="--color:#8205FF;">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        Portfolio
+                    </a>
+                    <a class="CButton" href="./About%20me/" style="--color:#8205FF;">
+                        About me
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+            <div class="col-sm-5">
+                <div class="p-3 ">
+                   <h1 style="text-align: center;">MIA VREVEN</h1>
+                    <h2 style="text-align: center;">Game Designer</h2>
+                    <p style="text-align: center;">
+                        Hi there! My name is Mia and I am currently studying game design at HKU. I have experience in many different areas and hold a degree in game development.
+                        <br>
+                        <br>
+                        Below is my portfolio highlighting some of my game related work.
+                    </p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid bg-dark">
+    <div class="container" id="GamesContainer">
+        <div class="row" style="padding-top: 25px;">
+            <div class="CbuttonContainer">
+                <a class="CButton" onclick="ShowTab(0)" style="--color:#8205FF;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Games
+                </a>
+                <a class="CButton" onclick="ShowTab(1)" style="--color:#8205FF;">
+                    Models
+                </a>
+                <a class="CButton" onclick="ShowTab(2)" style="--color:#8205FF;">
+                    Mods
+                </a>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 25px;">
+            <div class="col-sm-6"><img src="./images/SO9b5Q.png" class="Game-Preview-Image"> </div>
+            <div class="col-sm-6" style="min-height: 200px">
+                <h3>
+                    Feed the machine
+                </h3>
+                <p>2023</p>
+                <p>Duration: 48 hours </p>
+                <p>Description</p>
+                <a href="">link to page</a>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 25px;">
+            <div class="col-sm-6"><img src="./images/tbZH3u.png" class="Game-Preview-Image"> </div>
+            <div class="col-sm-6" style="min-height: 200px">
+                <h3>
+                    Everlasting
+                </h3>
+                <p>2023</p>
+                <p>Duration: 8 weeks </p>
+                <p>Role(s) and responsibilities:<br>
+                Game Design<br>
+                    Designed the games mechanics<br>
+                    <br>
+                Atmospheric Design<br>
+                    Designed the games auditory and visual atmosphere
+                </p>
+
+                <a href="">link to page</a>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 25px;">
+            <div class="col-sm-6"><img src="./images/qq_XZ1.jpg" class="Game-Preview-Image"> </div>
+            <div class="col-sm-6" style="min-height: 200px">
+                <h3>
+                    Castle platformer
+                </h3>
+                <p>2023</p>
+                <p>Duration: 1.5 weeks </p>
+                <p>Description</p><a href="">link to page</a>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 25px;">
+            <div class="col-sm-6"><iframe width="560" height="315" src="https://www.youtube.com/embed/v2kFotsf3sc?si=NJujp2TaWcD2lAps" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="Game-Preview-Image"></iframe> </div>
+            <div class="col-sm-6" style="min-height: 200px">
+                <h3>
+                    Cinematic Gameplay test
+                </h3>
+                <p>2023</p>
+                <p>Duration: 3 hours </p>
+                <p>Description</p>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 25px;">
+            <div class="col-sm-6"><img src="./images/puzzle%20game%201.JPG" class="Game-Preview-Image"> </div>
+            <div class="col-sm-6" style="min-height: 200px">
+                <h3>
+                    Split mind
+                </h3>
+                <p>2022</p>
+                <p>Duration: 3 weeks </p>
+                <p>Description</p><a href="">link to page</a>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 25px;">
+            <div class="col-sm-6"><img src="./images/bulletborne.png" class="Game-Preview-Image"> </div>
+            <div class="col-sm-6" style="min-height: 200px">
+                <h3>
+                    Bulletborne
+                </h3>
+                <p>2019</p>
+                <p>Duration: 2 weeks </p>
+                <p>Description</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="container" id="ModelsContainer" style="display: none;">
+        <div class="row" style="padding-top: 25px;">
+            <div class="CbuttonContainer">
+                <a class="CButton" onclick="ShowTab(0)" style="--color:#8205FF;">
+                    Games
+                </a>
+                <a class="CButton" onclick="ShowTab(1)" style="--color:#8205FF;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Models
+                </a>
+                <a class="CButton" onclick="ShowTab(2)" style="--color:#8205FF;">
+                    Mods
+                </a>
+            </div>
+        </div>
+            <div class="row" style="padding-top: 25px;">
+                <h3 style="text-align: center">2023</h3>
+                <div class="col-sm-6"><img src="./images/BPR_Composite.jpg" class="Game-Preview-Image"> </div>
+                <div class="col-sm-6"><img src="./images/BPR_Composite2.jpg" class="Game-Preview-Image"> </div>
+            </div>
+            <div class="row" style="padding-top: 25px;">
+                <h3 style="text-align: center">2022</h3>
+                <div class="col-sm-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/QpVreGdFBq8?si=eXOI_MRyDaIDAD23" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen class="Game-Preview-Image"></iframe>
+                </div>
+                <div class="col-sm-6"><img src="./images/done.JPG" class="Game-Preview-Image"> </div>
+            </div>
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-sm-6"><img src="./images/6.JPG" class="Game-Preview-Image"> </div>
+                <div class="col-sm-6"><img src="./images/0032.jpg" class="Game-Preview-Image"> </div>
+            </div>
+            <div class="row" style="padding-top: 25px;">
+                <h3 style="text-align: center">2020</h3>
+                <div class="col-sm-6"><img src="./images/Capture6.JPG" class="Game-Preview-Image"> </div>
+                <div class="col-sm-6"><img src="./images/Capture5.JPG" class="Game-Preview-Image"> </div>
+            </div>
+        <div class="row" style="padding-top: 25px;">
+            <div class="col-sm-6"><img src="./images/Capture3.JPG" class="Game-Preview-Image"> </div>
+            <div class="col-sm-6"><img src="./images/Capture4.JPG" class="Game-Preview-Image"> </div>
+        </div>
+        <div class="row" style="padding-top: 25px;">
+            <div class="col-sm-6"><img src="./images/Capture2.JPG" class="Game-Preview-Image"> </div>
+            <div class="col-sm-6"><img src="./images/Capture7.JPG" class="Game-Preview-Image"> </div>
+        </div>
+        <div class="row" style="padding-top: 25px;">
+            <h3 style="text-align: center">2019</h3>
+            <div class="col-sm-6"><img src="./images/Capture.JPG" class="Game-Preview-Image"> </div>
+        </div>
+        </div>
+    <div class="container" id="ModsContainer" style="display: none;">
+        <div class="row" style="padding-top: 25px;">
+            <div class="CbuttonContainer">
+                <a class="CButton" onclick="ShowTab(0)" style="--color:#8205FF;">
+                    Games
+                </a>
+                <a class="CButton" onclick="ShowTab(1)" style="--color:#8205FF;">
+                    Models
+                </a>
+                <a class="CButton" onclick="ShowTab(2)" style="--color:#8205FF;">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    Mods
+                </a>
+            </div>
+        </div>
+        <div class="row" style="padding-top: 25px;">
+            <div class="col-sm-6"><img src="./images/57595-1635426140-1468540563.webp" class="Game-Preview-Image"> </div>
+            <div class="col-sm-6" style="min-height: 200px">
+                <h3>
+                    Magic of vile darkness
+                </h3>
+                <p>
+                    This mod project expands the amount of undead creatures in Skyrim to have more variety.
+                    The other objective for this mod was for me to learn how to convert models to Skyrim requiring me to learn how to rescale and rig.
+                    This together with Worn undead are two of my most downloaded mods that I made completely alone.
+                </p>
+                <p>Downloads: 213.9k</p>
+                <a href="https://www.nexusmods.com/skyrimspecialedition/mods/57595">link to page</a>
+            </div>
+        </div>
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-sm-6"><img src="./images/63391-1644534368-1633160334.webp" class="Game-Preview-Image"> </div>
+                <div class="col-sm-6" style="min-height: 200px">
+                    <h3>
+                        Worn undead
+                    </h3>
+                    <p>
+                        Worn undead is a continuation of the mod above but seperated into another project because this mod adds undead versions for characters that already exist in the game but did not already have undead versions.
+                        For this project I modified the models of the base game to give all of them 6 to 9 different undead version coming to a total of 12 versions per character if we include its sister mod battle worn creatures.
+                        The models I made for this mod have also been used in another mod I made together with jayserpa called Immersive Death Cycle which has gotten 419K downloads.
+                    </p>
+                    <p>Downloads: 211.9k</p>
+                    <a href="https://www.nexusmods.com/skyrimspecialedition/mods/63391">link to page</a>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-sm-6"><img src="./images/48269-1617837201-2139576336.webp" class="Game-Preview-Image"> </div>
+                <div class="col-sm-6" style="min-height: 200px">
+                    <h3>
+                        Nax ruins - Bleak falls barrow
+                    </h3>
+                    <p>
+                        This is the first of my Nax ruins mods, which are mods I make from time to time in which I try to redesign Skyrim ruins/dungeons
+                        to better fit their lore, make them more unique and replayable.
+                        My primary focus with this redesign is to create a distinct differance between the temple section and when it becomes the burial chamber.
+                        I also tried to remove skyrims shortcut at the end of the dungeon trick and made then dungeon slightly change and spawn new enemies to make it feel like the undead are trying to prevent you from escaping with the dragon stone.
+                    </p>
+                    <a href="https://www.nexusmods.com/skyrimspecialedition/mods/48269">link to page</a>
+                </div>
+            </div>
+            <div class="row" style="padding-top: 25px;">
+                <div class="col-sm-6"><img src="./images/52702-1626980579-764645503.webp" class="Game-Preview-Image"> </div>
+                <div class="col-sm-6" style="min-height: 200px">
+                    <h3>
+                        Nax ruins - Ranveigs fast
+                    </h3>
+                    <p>
+                        Another dungeon redesign mod. Ranveigs fast is a very forgettable location in de base game of Skyrim because it's a very generic dungeon with only one side quest and almost no content in it.
+                        I tired to improve it by increasing the prominence of this dungeon adding more various ways into it connected to other parts of the surrounding map. I also added a whole new sub dungeon area which is supposed to be a continuation of another forgotten side quest.
+                        This new dungeon section took heavy inspiration from how the dark souls 3 catacombs look and feel.
+                    </p>
+                    <a href="https://www.nexusmods.com/skyrimspecialedition/mods/52702">link to page</a>
+                </div>
+            </div>
+        </div>
+</div>
+
+<div class="container-fluid bg-dark">
+    <div class="row">
+        <div class="col-sm-1" style="margin-left: 37%">
+            <img src="./images/Icons/itchio-logo-white.png" style="width: 20px;">
+            <a href="https://naxmaardur.itch.io">Itch.io</a>
+        </div>
+        <div class="col-sm-1">
+            <img src="./images/Icons/instagram.png" style="width: 20px;">
+            <a href="https://www.instagram.com/naxmaardur_/">Instagram</a>
+        </div>
+        <div class="col-sm-1">
+            <img src="./images/Icons/nexus.png" style="width: 20px;">
+            <a href="https://www.nexusmods.com/users/23385879?tab=user+files">Nexusmods</a>
+        </div>
+    </div>
+</div>
+
+<script>
+    function ShowTab(i) {
+        var games = document.getElementById("GamesContainer");
+        var models = document.getElementById("ModelsContainer");
+        var mods = document.getElementById("ModsContainer");
+        games.style.display = "none";
+        models.style.display = "none";
+        mods.style.display = "none";
+        switch (i){
+            case 0:
+                games.style.display = "block";
+                break;
+            case 1:
+                models.style.display = "block";
+                break;
+            case 2:
+                mods.style.display = "block";
+                break;
+        }
+
+        }
+</script>
+
 </body>
 </html>
